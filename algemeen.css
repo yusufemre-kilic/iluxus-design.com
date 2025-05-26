@@ -1,0 +1,83 @@
+.background-dark{background-color:#303032;color:white;}
+.dark-color{color:#303032;}
+.light-color{color:#9A9A9A;}
+.border{border:1px solid #303032;}
+.nav ul{list-style-type: none;display: block;}
+.nav ul li{display: inline-block;}
+.nav ul li a{color:white;text-decoration: none;}
+/*#module-configurator-frame{height:500px;}*/
+#frame{text-align: center;}
+.frame-item{display: inline-block; border-top:1px solid #303032; border-bottom:1px solid #303032;max-width:200px;max-height: 200px;}
+.frame-item:first-child{border-left:1px solid #303032;}
+.frame-item:last-child{border-right:1px solid #303032;}
+.kiezer-nav{background-color:#303032;color:white;cursor:pointer;padding:7px 15px;border-bottom:1px solid white; font-weight: 300;letter-spacing: 1px;}
+.kiezer-nav:last-child{border-bottom: none;}
+.kiezer-options{padding:7px 15px;border-left:1px solid #303032;border-right:1px solid #303032;border-bottom:1px solid #303032;margin-top:-1px;}
+.kiezer-options .kiezer-frame-item{cursor:pointer;}
+.kiezer-options .kiezer-frame-item:hover{font-weight: 800; color:#f4963c;}
+.kiezer-options .kiezer-frame-item.active{font-weight: 800; color:#f4963c;}
+.kiezer-options .kiezer-module-item{cursor:pointer;display:inline-block; margin:10px;border:1px solid #303032;max-height: 100px; max-width:100px;}
+.kiezer-options .kiezer-module-item img{width:100%;height:auto;vertical-align: top;}
+.kiezer-options .kiezer-module-item img.special{width:200%;height:auto;z-index:500;position: relative;}
+.kiezer-options .kiezer-module-item.active{border:2px dashed #f4963c}
+.frame-item:hover{border:2px dashed #f4963c;cursor: pointer;}
+.frame-item.active{border:2px dashed #f4963c;cursor: pointer;}
+.kiezer-options .kiezer-technologie-item{cursor:pointer;}
+.kiezer-options .kiezer-technologie-item:hover{font-weight: 800; color:#f4963c;}
+.kiezer-options .kiezer-technologie-item.active{font-weight: 800; color:#f4963c;}
+.kiezer-options .kiezer-afwerking-item{cursor:pointer;}
+.kiezer-options .kiezer-afwerking-item:hover{font-weight: 800; color:#f4963c;}
+.kiezer-options .kiezer-afwerking-item.active{font-weight: 800; color:#f4963c;}
+.frame-item p{display: block;position: absolute;bottom: 0;margin-bottom: 0px;}
+.error{font-size: 16px; font-weight: 400; color:#d44038;}
+/* img.special{width:200%;height:auto;z-index:500;position: relative;max-width:200%;pointer-events: none;} */
+form#toevoegen-aan-bestelling button{border:none;background:none;color:black;border:1px solid black;display: block;cursor: pointer;padding:10px;}
+form#toevoegen-aan-bestelling button:hover{border-color:black;background-color:black;color:white;}
+#form-validation{margin-top:10px;}
+form#toevoegen-aan-bestelling .error{font-size:14px;color:#d44038;}
+form#toevoegen-aan-bestelling .success{font-size:14px;color:#38d440;}
+form#toevoegen-aan-bestelling #extra_navigation a{color:black;text-decoration: none;}
+form#toevoegen-aan-bestelling #extra_navigation a:hover{cursor:pointer; font-weight: 800; color:#f4963c;}
+table#besteltable{width:100%;border:1px solid black;padding: 15px; padding-bottom:0;border-collapse: separate;}
+table#besteltable tr{margin:10px; border-collapse: separate;}
+table#besteltable td{border-bottom:1px solid black;padding-top:15px;padding-bottom:15px;}
+table#besteltable th{border-bottom:1px solid black;padding-bottom:15px;}
+table#besteltable tr:last-child td{border-bottom:none;}
+.width-40{width:40%;}
+.width-30{width:30%;}
+.width-15{width:15%;}
+form#bestelformulier input{border:#303032 1px solid; border-radius: 0;}
+form#bestelformulier input:active, form#bestelformulier input:focus{border:#f4963c 2px solid;}
+form#bestelformulier textarea{border:#303032 1px solid; border-radius: 0;}
+form#bestelformulier textarea:active, form#bestelformulier textarea:focus{border:#f4963c 2px solid;}
+/* form#bestelformulier .frame{border:1px solid black;max-width:auto;max-height: 75px;display: inline-block;} */
+form#bestelformulier .frame .img-container{display: inline-block;max-width: 75px;max-height: 75px;vertical-align: top;}
+form#bestelformulier .frame .img-container img{display:inline-block;max-height: 75px;}
+form#bestelformulier .frame .img-container img.special{max-height: 150px;max-width:150px;position: relative;z-index:500;pointer-events: none;}
+
+
+.radiobuttonfield{padding:0 15px;}
+.radiobuttonfield .radio{display: inline-block;margin:0;}
+.radiobuttonfield .radio:first-of-type{margin-right:15px;}
+.radiobuttonfield .radio .radiobtn-item label{padding:0;}
+input[type="radio"],
+div.radio input[type="radio"] {display:none;}
+input[type="radio"] + label span:first-child,
+div.radio input[type="radio"] + label span:first-child {
+	vertical-align: middle;
+	display:inline-block;
+    width:25px;
+    height:25px;
+    background:url("https://configurator.lithoss.com/home/../../images/layout/radiobuttons.png") 0 -1px no-repeat;
+    cursor:pointer;
+    vertical-align: middle;
+}
+input[type="radio"]:checked + label span:first-child,
+div.radio input[type="radio"]:checked + label span:first-child {
+	display:inline-block;
+    width:25px;
+    height:25px;
+    background:url("https://configurator.lithoss.com/home/../../images/layout/radiobuttons.png") 0 -25px no-repeat;
+    cursor:pointer;
+    vertical-align: middle;
+}
